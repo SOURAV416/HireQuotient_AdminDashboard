@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="image/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-32x32.png">
+    <link rel="manifest" href="image/site.webmanifest">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Admin Dashboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search">
+                <input type="text" id="searchInput" placeholder="Search Here">
+                <button class="search-icon" onclick="search()">Search</button>
+            </div>
+            <button class="bulk-delete" onclick="bulkDelete()">Bulk Delete</button>
+        </div>
+        <table id="userTable">
+            <!-- Table rows will be available here -->
+        </table>
+        <div class="pagination">
+            <!-- Pagination buttons will be available  here -->
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
